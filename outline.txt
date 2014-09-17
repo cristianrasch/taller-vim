@@ -2,6 +2,9 @@ Instalación (Macs via homebrew)
 
 Sesión rápida: grabar y salir
 
+# para que la gente pierda el miedo a qué hacer cuando estén perdidos, enseñar los recursos de ayuda al principio
+Intro a :h[elp] y vimtutor
+
 Moving around, intro to motions
 
 Modos
