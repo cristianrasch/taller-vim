@@ -2,33 +2,37 @@ Instalación (Macs via homebrew)
 
 Sesión rápida: grabar y salir
 
-# para que la gente pierda el miedo a qué hacer cuando estén perdidos, enseñar los recursos de ayuda al principio
-Intro a :h[elp] y vimtutor
+# Dónde obtener ayuda?
+Builtin help
+  vimtutor
+  :h[elp]
 
 Moving around, intro to motions
 
 Modos
   Normal Mode - navegación: scrolling, move cursor around
   Insert Mode
-  Command line Mode (e.g. :pwd, :cd, :y, :pu, :t)
+  Command line Mode & ex commands (e.g. :pwd, :cd, :y, :pu, :t)
 
 Vim as a language
   Single character verbs (x, r, s, d, c, y)
   Operator-pending mode
-  Motions ($, G, f, t)
+  Useful motions ($, G, f, t)
   Text objects - http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
 
 Working with files
   e[dit[!]], r[ead]
   Buffers, splits and windows + managment
-  the jumplist, marks?
+  the jumplist, marks
 
 Repetition
   ., n, ;, //, @:
 
+Running shell commands
+
 Configuración - enter the .vimrc file, mostrar algunos ejemplos
 
-Plugins
+Plugin management
   pathogen - https://github.com/tpope/vim-pathogen
   vundle - https://github.com/gmarik/Vundle.vim
   Administraciòn - http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
@@ -36,9 +40,6 @@ Plugins
 Macros? - mencionar que son y mostrar algún ejemplo rápido
 
 Recursos
-  Builtin help
-    vimtutor
-    :h[elp]
   Blogs
     http://usevim.com/
     http://benmccormick.org/
@@ -47,7 +48,7 @@ Recursos
   Screencasts
     http://vimcasts.org/episodes/archive/
   Charlas
-    hBen Orenstein - Write code faster: expert-level vim - https://www.youtube.com/watch?v=SkdrYWhh-8s
+    Ben Orenstein - Write code faster: expert-level vim - https://www.youtube.com/watch?v=SkdrYWhh-8s
   Cheat sheets
     http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
     http://www.fprintf.net/vimCheatSheet.html
