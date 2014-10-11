@@ -1,43 +1,49 @@
 Instalación (Macs via homebrew)
 
-Sesión rápida: grabar y salir
+Sesión rápida: entrar, cargar ~/.vimrc, grabar y salir
 
 # Dónde obtener ayuda?
 Builtin help
   vimtutor
   :h[elp]
 
-Moving around, intro to motions
+Moving around, intro to motions: w/W, cursor keys, e, ge, b, gg, G, ^, $, fF,tT
 
 Modos
-  Normal Mode - navegación: scrolling, move cursor around
-  Insert Mode
-  Command line Mode & ex commands (e.g. :pwd, :cd, :y, :pu, :t)
+  Normal Mode - navegación: scrolling, move cursor around (out of scope: marks, ctags), xX, r, ~
+  Insert Mode: a, A, i, I, oO, cC, sS
+  Command line Mode & ex commands (e.g. :pwd, :cd, :y, :pu, :t, :m)
 
 Vim as a language
   Single character verbs (x, r, s, d, c, y)
-  Operator-pending mode
-  Useful motions ($, G, f, t)
+    nnoremap <C-J> <C-W><C-J> "Ctrl-j to move down a split
+    nnoremap <C-K> <C-W><C-K> "Ctrl-k to move up a split
+    nnoremap <C-L> <C-W><C-L> "Ctrl-l to move right a split
+    nnoremap <C-H> <C-W><C-H> "Ctrl-h to move left a split
   Text objects - http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
+    aw, iw, ap, ip, is, i", a( - recomendar vim-targets y textobj-user
+
+Search: in file, project-wide (vim-grep) - substitute
 
 Working with files
-  e[dit[!]], r[ead]
-  Buffers, splits and windows + managment
-  the jumplist, marks
+  e[dit[!]], r[ead], saveas
+  Buffers, splits and windows
+  the jumplist: ir al anterior y volver
 
 Repetition
-  ., n, ;, //, @:
+  ., n, ;, //, @:, dd
 
-Running shell commands
+Running shell commands: !mkdir, !date, !ruby -e, como leer de la consola: :r !date, :r file, copiar el current buffer al escritorio
 
-Configuración - enter the .vimrc file, mostrar algunos ejemplos
+Macros? - mencionar que son y mostrar algún ejemplo rápido
+  someone AT email dot com
+
+** Registers **
 
 Plugin management
   pathogen - https://github.com/tpope/vim-pathogen
   vundle - https://github.com/gmarik/Vundle.vim
   Administraciòn - http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-
-Macros? - mencionar que son y mostrar algún ejemplo rápido
 
 Recursos
   Blogs
