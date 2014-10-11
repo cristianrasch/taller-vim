@@ -23,7 +23,7 @@ Vim as a language
   Text objects - http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
     aw, iw, ap, ip, is, i", a( - recomendar vim-targets y textobj-user
 
-Search: in file, project-wide (vim-grep) - substitute
+Search: in file, project-wide (vim-grep) - substitute, '*'
 
 Working with files
   e[dit[!]], r[ead], saveas
