@@ -1,6 +1,7 @@
 Instalación (Macs via homebrew)
 
 Sesión rápida: entrar, cargar ~/.vimrc, grabar y salir
+  :source vimrc
 
 # Dónde obtener ayuda?
 Builtin help
