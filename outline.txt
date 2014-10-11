@@ -1,7 +1,7 @@
 Instalación (Macs via homebrew)
 
 Sesión rápida: entrar, cargar ~/.vimrc, grabar y salir
-  :source vimrc
+  :so[urce] vimrc
 
 # Dónde obtener ayuda?
 Builtin help
@@ -19,8 +19,6 @@ Vim as a language
   Single character verbs (x, r, s, d, c, y)
     nnoremap <C-J> <C-W><C-J> "Ctrl-j to move down a split
     nnoremap <C-K> <C-W><C-K> "Ctrl-k to move up a split
-    nnoremap <C-L> <C-W><C-L> "Ctrl-l to move right a split
-    nnoremap <C-H> <C-W><C-H> "Ctrl-h to move left a split
   Text objects - http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/
     aw, iw, ap, ip, is, i", a( - recomendar vim-targets y textobj-user
 
@@ -34,7 +32,12 @@ Working with files
 Repetition
   ., n, ;, //, @:, dd
 
-Running shell commands: !mkdir, !date, !ruby -e, como leer de la consola: :r !date, :r file, copiar el current buffer al escritorio
+Running shell commands:
+  !mkdir, !date, ruby -e 'puts "vim"'
+  Interactuando con la consola
+    :r !date
+    :r file
+    :echo expand("%:p")
 
 Macros? - mencionar que son y mostrar algún ejemplo rápido
   someone AT email dot com
