@@ -42,6 +42,13 @@ Running shell commands:
 Macros? - mencionar que son y mostrar algún ejemplo rápido
   someone AT email dot com
 
+  poner clases (models) dentro de module
+    ggOmodule ModelsjVG>Goend
+    :args models/*rb -> carga models  en args
+    append :next to macro -> qA :next^[ q
+    14@a
+    save all -> :wall
+
 ** Registers **
 
 Plugin management
